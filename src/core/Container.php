@@ -35,7 +35,7 @@ if (!defined('ABSPATH')) {
  * @since      1.2.0
  * @package    WordPress-EDD-License-Integration
  */
-class Container extends \Pimple\Container
+class Container extends \PublishPress\Pimple\Container
 {
 
 }

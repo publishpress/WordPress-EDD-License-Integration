@@ -24,7 +24,7 @@
 namespace PublishPress\EDD_License\Core;
 
 use Alledia\EDD_SL_Plugin_Updater;
-use Pimple\ServiceProviderInterface;
+use PublishPress\Pimple\ServiceProviderInterface;
 
 // Exit if accessed directly
 if (!defined('ABSPATH')) {
@@ -70,7 +70,7 @@ class Services implements ServiceProviderInterface
      *
      * @param \Pimple\Container $container An Container instance
      */
-    public function register(\Pimple\Container $pimple)
+    public function register(\PublishPress\Pimple\Container $pimple)
     {
         /*
          * The config

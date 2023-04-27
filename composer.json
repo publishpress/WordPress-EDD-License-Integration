@@ -34,7 +34,7 @@
   },
   "require": {
     "php": ">=5.6.20",
-    "pimple/pimple": "~3.2",
+    "publishpress/pimple-pimple": "~3.2",
     "alledia/edd-sl-plugin-updater": "^1.6",
     "ext-json": "*"
   },
